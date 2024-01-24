@@ -1,0 +1,28 @@
+
+body{
+    margin: 1.5rem;
+    padding: 5% 10%;
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+    border: 2px solid black;
+    width:40%;
+}
+
+ul{
+    list-style-type: circle;
+    text-align: justify;
+    list-style-position: inside;
+    line-height: 1.6;
+    color: black;
+}
+
+li:nth-child(odd){
+    color: green;
+}
+
+ul ::marker{
+    color: saddlebrown;
+    content: "css li>>";
+}
