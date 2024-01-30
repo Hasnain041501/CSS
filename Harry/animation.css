@@ -1,0 +1,71 @@
+/* Utility Classes */
+.anime{
+    animation-duration: 1 s;
+    animation-fill-mode: both;
+}
+.anime-fast{
+    animation-duration: .6s;
+}
+.anime-slow{
+    animation-duration: 3s;
+}
+
+.anime-delay{
+    animation-delay: 1s;
+}
+.anime-infinite{
+    animation-iteration-count: infinite;
+}
+
+
+/* Animation */
+@keyframes slideLeftToRight{
+    from{
+        transform: translateX(-360px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
+}
+ 
+.slideLeftToRight{
+    animation: slideLeftToRight; 
+    animation-timing-function: ease-in;
+}
+
+
+
+@keyframes slideRightToLeft{
+    from{
+        transform: translateX(360px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.slideRightToLeft{
+    animation: slideRightToLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    
+}
+
+
+
+
+
+
+/* .animation{
+    animation: slideLeftToRight 1s ease-in 0s infinite normal forwards;
+   /* animation: slideLeftToRight;
+    animation-duration:1s;
+    animation-timing-function: ease-in;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+    animation-fill-mode:none; 
+} 
+*/

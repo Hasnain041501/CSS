@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+
+    <style>
+        /* Element Selector */
+        div{
+            background-color: rgb(235, 197, 73);
+        }
+
+        /* Class Selector */
+        .red{
+          background-color: red;  
+        }
+
+        /* ID Selector */
+        #green{
+            background-color: green;
+        }
+
+        /* Child Selector */
+        div > p{
+            color: black;
+            background-color: white;
+        }
+
+        /* Descendant Selector */
+        div p{
+            color: red;
+            background-color: blue;
+        }
+
+        /* Universal Selector */
+        *{
+            margin: 1px;
+            padding: 1px;
+        }
+
+        /* Pseudo Selector */
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        a:active{
+            background-color: blue;
+        }
+        a:hover{
+            color: aqua;
+        }
+
+        /* p:first-child{
+            background-color: yellow;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        This is class Selector.
+        <!-- <p id="green">This is a paragraph inside class selector.</p> -->
+        <p>This is a child Selector.</p>
+    </div>
+
+    <div id="green">
+        This is id Selector.
+        <!-- <p class="red">This is a paragraph inside id selector.</p> -->
+        <article>
+            <p>This is a descendant Selector.</p>
+        </article>
+    </div>
+    <p class="red">This is a paragraph.</p>
+
+    <br>
+    <a href="https://www.google.com">Google</a>
+    <br>
+    <a href="https://www.facebook.com">Facebook</a>
+
+
+</body>
+</html>
