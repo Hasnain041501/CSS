@@ -1,0 +1,38 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+.colunm{
+    /* column-count: 4;
+    column-width: 250px; */
+    columns: 4 250px;
+    column-rule: 3px solid #333;
+    column-gap: 3rem;
+}
+
+.colunm p{
+    margin-top: 0;
+}
+
+.colunm h2{
+    margin-top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    break-inside: avoid;
+    /* break-before: column; */
+}
+
+.colunm .quote{
+    font-size: 3rem;
+    text-align: center;
+    color: #444;
+    margin: 3rem;
+    column-span: all;
+
+}
+.nowrap{
+    white-space: nowrap;
+}
