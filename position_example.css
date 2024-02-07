@@ -1,0 +1,40 @@
+
+section{
+    height: 100vh;
+}
+
+.blue{background-color:blue;}
+.red{background-color:red;}
+.green{background-color:green;}
+
+html{scroll-behavior: smooth;}
+
+header, footer{
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    font-size: 5rem;
+}
+
+footer{
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: azure;
+    /* transform: rotate(90deg); */
+}

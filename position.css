@@ -1,0 +1,58 @@
+
+
+body{
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.outer-container{
+    border: 3px dashed #000;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+}
+.inner-container{
+    border: 2px solid #00f;
+    width: 40vw;
+    height: 50vh;
+    margin: 100px auto;
+    /* position: relative; */
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    padding: 1rem;
+}
+
+.absolute{
+    background-color: #00f;
+    position: absolute;
+    top: 100px;
+    left: -100 0px;
+    /* absolute positioning needs a parent.if no parent,then root is parent. */
+    
+}
+ 
+.relative{
+    background-color: #f00;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    
+}
+.fixed{
+    background-color: #0f0;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+}
+.sticky{
+    background-color: #0ff;
+    position: sticky;
+    top: 10px;
+
+    /* left: 0;  */
+}
