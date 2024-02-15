@@ -1,0 +1,71 @@
+
+body{
+    background-image:url('../CSS/img/bubbles.png') ,
+                    linear-gradient(to left,steelblue,#fff);
+    background-repeat: repeat-y;
+    background-position: right; 
+}
+img{display: block;}
+.example{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example img{
+    width: 25%;
+    height: auto;
+}
+
+.hero{
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: rgb(251,210,156);
+    background-image: url('../CSS/img/scenic-2200x1331.png');
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+.h1{
+    font-size: 500%;
+    color: #fff;
+    text-shadow: 5px 5px 10px #000;
+
+    /* width: 40%;
+    background-color: hsla(0, 0%, 0%, .40);
+    padding: 0.25rem;
+    border-radius: 20px; */
+}
+.nowrap{
+    white-space: nowrap;
+}
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+
+.profile-pic{
+    width: 35%;
+}
+
+.profile-pic img{
+    width: 100%;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+
+.clip{
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url(../CSS/img/scenic-2200x1331.png);
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip:text;
+    color: hsla(0, 0%, 0%, 0.206);
+}
