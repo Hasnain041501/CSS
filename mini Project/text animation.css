@@ -42,5 +42,9 @@ body{
     }20%{
         transform: translateY(-50px);
         color: #0f0;
+    }70%{
+        transform: translateY(-10px);
+        color: #f00;
     }
+
 }
